@@ -14,7 +14,7 @@ var Usage = func() {
 
 func main() {
 	args := os.Args
-	args = args[1:len(args)]
+	args = args[1:]
 	if args == nil || len(args) < 2 {
 		Usage()
 		return
